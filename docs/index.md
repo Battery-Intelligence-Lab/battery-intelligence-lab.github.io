@@ -21,7 +21,7 @@ hero-image-origin: 50% 25%
 <div class="row">
 <div class="col-xs-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2" markdown="1">
 
-We design systems and develop diagnostics and control algorithms for electrochemical energy devices such as batteries and supercapacitors, in applications from electric cars to grid power systems.
+We explore and optimize electrochemical energy devices, such as batteries and supercapacitors, in applications from electric cars to grid power systems.
 
 <a href="{{ site.baseurl }}/research" class="btn">Find out more</a>
 
