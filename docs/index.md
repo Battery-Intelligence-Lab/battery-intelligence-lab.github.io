@@ -53,7 +53,7 @@ Our aim is to improve performance and cost by predicting dynamics and lifetime, 
 
 {% assign posts = site.posts -%}
 {% for post in posts %}
-{% if forloop.index < 6 %}
+{% if forloop.index < 10 %}
 <div class="post">
 <h6 class="sm-bottom-margin"><span class="post-title">{{ post.title }}</span> <span class="post-info">{{ post.date | date: "%-d %B %Y" }}</span></h6>
 {% if post.image %}<img class="post-thumbnail" src="{{ site.baseurl }}/img/{{ post.image }}"{% if post.image-credit %} title="Image credit: {{ post.image-credit }}"{% endif %}>{% endif %}
