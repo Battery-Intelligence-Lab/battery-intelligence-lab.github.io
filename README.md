@@ -11,7 +11,7 @@ Use [Markdown](https://daringfireball.net/projects/markdown/) to edit pages and 
 - People: `people.md`
 - Publications: `publications.md`
 - Data and code: `data-and-code.md`
-- Lab: `lab.md`
+- ~~Lab: `lab.md`~~ -> now removed (to deprecated folder)
 - Contact: `contact.md`
 - Research subpages: `research/{research-area}/index.html`
 - Projects: `research/{research-area}/{project-name}.md`
@@ -31,7 +31,7 @@ Use [Markdown](https://daringfireball.net/projects/markdown/) to edit pages and 
 ### Images
 
 - Article thumbnails:` img/articles/{image-name}.jpg` (ideal size 144px*144px)
-- Equipment: `img/equipment/{image-name}.jpg` (ideal size 720px*480px or 480px*720px)
+- ~~Equipment: `img/equipment/{image-name}.jpg` (ideal size 720px*480px or 480px*720px)~~ -> not used any longer
 - Page hero images: `img/hero/{page-name}.jpg` (ideal size 1140px*500px)
 - Page hero images (retina): `img/hero/{page-name}@2x.jpg` (ideal size 2280px*1000px)
 - People photos: `img/people/{first-name}-{surname}.jpg` (ideal size 720px*480px)
