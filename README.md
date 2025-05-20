@@ -24,7 +24,7 @@ Use [Markdown](https://daringfireball.net/projects/markdown/) to edit pages and 
 
 - Articles: `_data/articles.yml`
 - Data and code:` _data/data-and-code.yml`
-- Equipment: `_data/equipment.yml`
+- ~~Equipment: `_data/equipment.yml`~~ -> no longer used
 - People: `_data/people.yml`
 - Sponsors: `_data/sponsors.yml`
 
