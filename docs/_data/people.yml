@@ -27,16 +27,8 @@
     image: 'Volkan-Kumtepeli.jpg'
     bio: Volkan is focused on in grid-scale energy storage systems, power electronics, data-driven, and safe learning approaches and their intersection with model-based optimization methods. He has a BSc from Yıldız Technical University, Istanbul, Turkey, and Ph.D. from the Energy Research Institute, Nanyang Technological University, Singapore.
 
-  - name: Dr Brady Planden
-    image: 'Brady-Planden.jpg'
-    bio: Brady works on computational methods for parameter inference and design optimisation of electrochemical models. He holds a PhD from Oxford Brookes University where he focused on real-time capable physics-based model creation. Prior to his PhD, Brady worked throughout the automotive and energy sectors in both Canada and the USA. In his spare time, he enjoys cycling and running throughout the countryside.
-
 - role: Graduate students
   people:
-
-  - name: Masaki Adachi
-    image: 'Masaki-Adachi.jpg'
-    bio: Masaki belongs to the Machine Learning Research Group in Information Engineering, and is applying his ML techniques to batteries. Formerly he was a simulation engineer and a data scientist for batteries at a car manufacturer for over 6 years; now, he is tackling distilling his industrial knowledge to academic wisdom. He loves driving with his cool electric vehicle.
 
   - name: Blanka Gaál
     image: 'blank.jpg'
@@ -76,28 +68,28 @@
   - name: Lizz Wilden
     image: 'blank.jpg'
     bio:  Lizz is the project manager for the Battery Intelligence Lab. Her previous role was research manager for the Noble Group in the Institute of Biomedical Engineering. She worked as a neuroscience researcher at the University of Reading from 2007-16, and is currently training in ecotherapy.
-
     
 - role: Alumni
   people:
+  - Dr Masaki Adachi, Principal Researcher at Toyota Motor Corporation
   - Dr Philipp Dechent, Senior Research Engineer at Toshiba
   - Dr Taeho Jung, Post-Doctoral Researcher at University of Maryland
-  - Dr Antti Aitio, Chief Data Scientist at Elysia Battery Intelligence 
-  - Dr Jie Lin, Post-Doctoral Researcher at University College London
-  - Dr Trishna Raj, Senior Battery Performance Engineer at WAE
+  - Dr Antti Aitio, CTO at Elysia Battery Intelligence 
+  - Dr Jie Lin, Lecturer/Assistant Professor at Queen's University Belfast
+  - Dr Trishna Raj, Senior Battery Performance Engineer at Fortescue Zero
   - Dr Pedro Ascencio, Advanced Process Control Engineer, Weir Minerals
-  - Dr Jorn Reniers, Senior Data Scientist at Brill Power
-  - Dr Ferdian Jovan, Lecturer at University of Aberdeen
-  - Dr Jorge Varela Barreras, Lecturer at Universitat Politècnica de Catalunya
+  - Dr Jorn Reniers, Senior Data Engineer at Brill Power
+  - Dr Ferdian Jovan, Lecturer/Assistant Professor at University of Aberdeen
+  - Dr Jorge Varela Barreras, Lecturer/Assistant Professor at Universitat Politècnica de Catalunya
   - Dr Leong Kit Gan, Expert Technical Specialist (Electrification) at BP
   - Dr Rob Richardson, Senior Staff Engineer at Tesla
-  - Dr Damien Frost, Head of Technology at Brill Power
-  - Dr Adrien Bizeray, Head of Software at Brill Power
+  - Dr Damien Frost, CTO at Brill Power
+  - Dr Adrien Bizeray, Senior Algorithms Engineer at Tesla
   - Dr Christoph Birkl, CEO of Brill Power
   - Joel Atkin, Business Manager at the Division of Cardiovascular Medicine, University of Oxford
-  - Dr Pietro Romanazzi, Product Development Project Manager at Maddalena, Italy
+  - Dr Pietro Romanazzi, Senior Product Manager at Gruppo Danieli, Italy
   - Dr Shi Zhao, AI Lead at Tencent Finance Line
-  - Dr Baljit Riar, Senior Power Electronics Engineer at Raytheon Technologies
+  - Dr Baljit Riar, Principal Engineer at Raytheon Technologies
   - Dr Mahdi Alavi, Battery Engineer (Chrysler) & Adjunct Faculty (UWaterloo)
   - Dr Kostas Gyftakis, Associate Professor, Technical University of Crete
   - Dr Darren Kavanagh, Lecturer at IT Carlow, Ireland
