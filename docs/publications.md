@@ -10,7 +10,7 @@ hero-image-origin: 30% 20%
 
 A full set of publications may be found at [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=6-MOqkMAAAAJ&view_op=list_works&sortby=pubdate). As far as possible papers are made available for download as pre-prints (primarily through [ArXiv](https://arxiv.org/a/howey_d_1.html) and/or as open access through [ORA](http://ora.ox.ac.uk) or directly from the publisher, as required by our funders.
 
-PhD theses may be accessed through the following ORA links (some are embargoed due to commercial sensitivity):
+PhD theses may be accessed through the following ORA links:
 1. Masaki Adachi - [Probabilistic numerics: Bayesian quadrature and human-AI collaboration](https://ora.ox.ac.uk/objects/uuid:1efd0744-509f-4410-b5fb-fc247977c819), 2025.
 2. Taeho Jung - [Application of concentrated solution theory and core potential to ion exchange media](https://ora.ox.ac.uk/objects/uuid:7ff7fbe9-6e28-417e-b61c-75dc2cb1d52f), 2023.
 3. Gosia Wojtala - [Degradation and thermal performance of Li-ion batteries: implications for electric vehicles](https://ora.ox.ac.uk/objects/uuid:f6233017-c578-4d70-b3d3-f13ea6e10a46), 2023.
