@@ -13,5 +13,8 @@ author:
   name:              Dan Lovell
   url:               http://danlovell.com
 
+# Encoding
+encoding:            utf-8
+
 # Custom vars
 version:             1.1.2
