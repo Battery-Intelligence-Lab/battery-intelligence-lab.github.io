@@ -29,7 +29,7 @@ hero-image-origin: 50% 40%
 {% else %}
 </div>
 <div class="row">
-	<div class="col-xs-12" markdown="1">
+	<div class="col-xs-12">
 		<h5>{{group.role}}</h5>
 		<ul>
 		{% for person in group.people %}
