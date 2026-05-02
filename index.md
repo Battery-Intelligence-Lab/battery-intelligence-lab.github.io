@@ -70,6 +70,9 @@ Nuestro objetivo es generar conocimiento y aportar al desarrollo tecnológico y 
 {% endif %}
 {% endfor %}
 
+
+{% include calendar.html %}
+
 </div>
 </div>
 </div>

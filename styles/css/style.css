@@ -8497,3 +8497,12 @@ h2.page-title {
 .ka-button:hover {
   background: #e6e9ff;
 }
+
+#calendar {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}

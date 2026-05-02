@@ -1,0 +1,32 @@
+<h3>Calendario de proyectos </h3>
+<div id="calendar"></div>
+
+<!-- 1. CSS de FullCalendar -->
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+
+<!-- 2. JS principal de FullCalendar -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+<!-- 3. Plugin de Google Calendar (OBLIGATORIO en v6) -->
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.8/index.global.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
+    initialView: 'timeGridWeek',
+    initialDate: '2026-05-02',
+    height: 500,
+    allDaySlot: false,
+    timeZone: 'America/Bogota',
+
+    // API key a nivel del calendario
+    googleCalendarApiKey: 'AIzaSyC4q0LKOb8iJflmiQeXgVZmceS0Gz23dOc',
+
+    // ID limpio, sin corchetes ni "mailto:"
+    events: {
+      googleCalendarId: 'c_cf97322ca9b5c616b53de48342f7085a02f36628c9a6a3bd61e9b5fd6e22e6a9@group.calendar.google.com'
+    }
+  });
+  calendar.render();
+});
+</script>

@@ -16,6 +16,8 @@ Este proyecto abre un campo de aplicación interdisciplinar, donde convergen la 
 
 $$ \oint f(x,y) dx = \vec{F}$$
 
+$$ \nabla^2 = f(x,y) $$
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
     src="https://www.youtube-nocookie.com/embed/Igu_NAdcayc"
@@ -37,4 +39,9 @@ $$ \oint f(x,y) dx = \vec{F}$$
      src="/assets/models/robot.glb"
      caption="Render interactivo del modelo CAD utilizado para el análisis cinemático."
      height="450px"
+%}
+
+{% include kicad_viewer.html
+  source=""
+
 %}
