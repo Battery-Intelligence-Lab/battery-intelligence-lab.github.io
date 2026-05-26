@@ -48,11 +48,13 @@ hero-image-origin: 50% 40%
 
 #### Joining the group
 
-**Postdocs:** Postdoctoral positions will always be [advertised](https://eng.ox.ac.uk/jobs/) via the department's website. 
+**Postdocs:** Postdoctoral positions will be [advertised](https://eng.ox.ac.uk/jobs/) via the department's website. 
 
-**DPhils:** The group is always interested in high quality doctoral applicants. The key deadline you must hit is around November each year, for the following year October start; note that all _references_ also need to be submitted by the same deadline. The admissions process at Oxford is extremely competitive, and we usually only take 1-2 students per year in this group. There are, unfortunately, only a very limited number of scholarships for international students available. There are slightly more funding opportunities for UK home students (as defined by UKRI), although the process is still very competitive. Applicants should consider carefully whether their interests are aligned with the group, and whether they meet the department and university admissions criteria. Further details may be found at the [Department of Engineering Science website](https://www.eng.ox.ac.uk/study/postgraduate/courses/) and you can get an idea of the project topics of interest [here](https://eng.ox.ac.uk/study/postgraduate/applications/postgraduate-projects).
+**DPhils:** The group is always interested in high quality doctoral applicants. The key deadline you must hit is around November each year, for the following year October start; note that all _references_ also need to be submitted by the same deadline. The admissions process at Oxford is extremely competitive, and we usually only take 1-2 students per year in this group. There are, unfortunately, only a very limited number of scholarships for international students available. There are slightly more funding opportunities for [UK home students](https://www.ox.ac.uk/students/fees-funding/fees/status), although the process is still very competitive. Applicants should consider carefully whether their interests are aligned with the group, and whether they meet the department and university admissions criteria. Further details may be found at the [Department of Engineering Science website](https://www.eng.ox.ac.uk/study/postgraduate/courses/) and you can get an idea of the project topics of interest [here](https://eng.ox.ac.uk/study/postgraduate/applications/postgraduate-projects).
 
-We receive a lot of email enquiries about internship, doctoral, and postdoc opportunities, and do not have time to reply to all of them. Speculative enquiries about postdocs and internships will generally not be answered at all (we are not able to host internship students). 
+**Internships:** We are not able to host internship students.
+
+**Enquiries:** We receive a lot of emails about intern, doctoral, and postdoc opportunities, and do not have time to reply to all of them. Speculative enquiries about postdocs and internships will usually not be answered. 
 
 </div>
 </div>
