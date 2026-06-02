@@ -27,6 +27,10 @@
     image: 'Volkan-Kumtepeli.jpg'
     bio: Volkan is focused on in grid-scale energy storage systems, power electronics, data-driven, and safe learning approaches and their intersection with model-based optimization methods. He has a BSc from Yıldız Technical University, Istanbul, Turkey, and Ph.D. from the Energy Research Institute, Nanyang Technological University, Singapore.
 
+  - name : Dr Christopher Wett
+    image: 'Christopher-Wett.jpg'
+    bio: Christopher is interested in battery modelling, management, and diagnostics. He has a background in analysing EV batteries for second-life applications and recycling, with experience in impedance spectroscopy and data-driven methods. He earned his PhD at the Institute of Engineering Thermodynamics at the University of Siegen.
+
 - role: Graduate students
   people:
 
