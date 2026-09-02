@@ -132,7 +132,7 @@
 		margin-bottom: 0;
 	}
 	&.people {
-		.row > div {			
+		.row > div {
 			@extend .col-xs-12;
 			@extend .col-md-12;
 			@extend .col-lg-12;
@@ -317,7 +317,7 @@
 				width: 100%;
 			}
 			.name {
-				font-weight: 300;
+				font-weight: 400;
 				span {
 					color: $md-grey;
 					font-size: $base-font-size;

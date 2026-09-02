@@ -6,15 +6,19 @@ title:               Battery Intelligence Lab
 tagline:             'Energy storage systems'
 description:         'A research group focused on system design, monitoring and control of electrochemical energy storage systems in applications from electric cars to grid power systems.'
 baseurl:             ''
-# baseurl:             ''
 
 # About/contact
 author:
   name:              Dan Lovell
-  url:               http://danlovell.com
+  url:               https://danlovell.com
 
 # Encoding
 encoding:            utf-8
 
 # Custom vars
-version:             1.1.2
+version:             1.2.0
+
+# Sass
+sass:
+  style:              compressed
+  sourcemap:          never

@@ -1,3 +1,8 @@
+// Grid
+$screen-xl:                  1600px !default;
+$screen-xl-min:              $screen-xl !default;
+$screen-lg-max:              ($screen-xl-min - 1) !default;
+
 // Colours
 
 $black: #222222;
@@ -34,6 +39,16 @@ $warm-gray-6: rgb(167,157,150);
 $warm-gray-3: rgb(199,194,188);
 $warm-gray-1: rgb(224,222,217); //
 
+// BIL colours
+$bil-whitesmoke: #f0f5fc;
+$bil-aqua: #6ce5f7;
+$bil-lt-blue: #58c2f5;
+$bil-md-blue: #3c8aef;
+$bil-dk-blue: #2967ea;
+$bil-navy: rgb(27,80,180);
+$bil-midnight: #0f223c;
+$bil-lt-grey: #f0f5fc;
+
 $base-background-color: $white;
 $base-font-color: $black;
 $base-action-color: $blue-279;
@@ -47,9 +62,9 @@ $accent-color: $warm-gray-1;
 $overlay-color: $oxford-blue;
 
 // Typography
-$sans-serif: acumin-pro, "Barlow", $font-family-sans-serif;
+$sans-serif: "Inter", $font-family-sans-serif;
 $serif: $font-family-serif;
-$header-sans-serif: stratos, $sans-serif;
+$header-sans-serif: "Oswald", $sans-serif;
 
 $base-font-family: $sans-serif;
 $header-font-family: $header-sans-serif;
@@ -81,5 +96,5 @@ $gutter: $grid-gutter-width;
 $base-z-index: 0;
 
 // Animations
-$base-duration: 250ms;
+$base-duration: 150ms;
 $base-timing: ease;
