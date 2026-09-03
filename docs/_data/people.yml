@@ -22,7 +22,7 @@
     image: 'Christopher-Wett.jpg'
     bio: Christopher is interested in battery modelling, management, and diagnostics. He has a background in analysing EV batteries for second-life applications and recycling, with experience in impedance spectroscopy and data-driven methods. He earned his PhD at the Institute of Engineering Thermodynamics at the University of Siegen.
 
-- name : Dr Phil Grünewald FICE
+  - name : Dr Phil Grünewald FICE
     title: Oxford Martin Fellow
     image: 'Phil-Grunewald.jpg'
     bio: Phil loves data. He collects smart meter, diary, socio-demographic and other sensor data to explain variations and flexibility in UK household energy demand. This approach is based on his interdisciplinary EPSRC Fellowship, which he applied as PI of the METER project and now as Co-I of EDOL. Phil worked in the semiconductor and photovoltaic industry before completing his PhD on grid energy storage at Imperial College. In his spare time he is a passionate rower, cyclist and roller skier.
