@@ -20,5 +20,6 @@ version:             1.2.0
 
 # Sass
 sass:
+  sass_dir:           styles/scss
   style:              compressed
   sourcemap:          never

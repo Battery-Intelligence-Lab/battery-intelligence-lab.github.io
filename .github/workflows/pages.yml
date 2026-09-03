@@ -1,0 +1,63 @@
+name: Build and deploy site
+
+# Replaces the classic "deploy from a branch" GitHub Pages build, which pins
+# jekyll-sass-converter 1.5.2 + Ruby Sass 3.7.4 and cannot compile styles/scss.
+# Repository setting required: Settings > Pages > Source = "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one deploy at a time; do not cancel a run that is already publishing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --source docs --destination _site --trace
+
+      - name: Check generated stylesheets and fonts
+        run: |
+          set -e
+          test -s _site/styles/css/style.css
+          test -s _site/styles/css/style_for_ie.css
+          # Every @font-face URL must resolve to a file that was actually built.
+          grep -o "url(\"[^\"]*\.woff2\")" _site/styles/css/style.css \
+            | sed 's/^url("//; s/")$//' \
+            | while read -r ref; do
+                path=$(realpath -m "_site/styles/css/$ref")
+                test -f "$path" || { echo "Missing font target: $ref"; exit 1; }
+              done
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
