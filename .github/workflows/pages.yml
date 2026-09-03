@@ -31,6 +31,24 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
+      # Jekyll aborts on malformed _data YAML, but with a bare Psych backtrace.
+      # Check first so the failure names the file and line.
+      - name: Validate data files
+        run: |
+          ruby -ryaml -e '
+            ok = true
+            Dir["docs/_data/*.{yml,yaml}"].sort.each do |f|
+              begin
+                YAML.load_file(f, permitted_classes: [Date, Time], aliases: true)
+                puts "ok   #{f}"
+              rescue Psych::SyntaxError => e
+                warn "FAIL #{f}: #{e.message}"
+                ok = false
+              end
+            end
+            exit(ok ? 0 : 1)
+          '
+
       - name: Build site
         env:
           JEKYLL_ENV: production
