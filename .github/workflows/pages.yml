@@ -39,10 +39,10 @@ jobs:
             ok = true
             Dir["docs/_data/*.{yml,yaml}"].sort.each do |f|
               begin
-                YAML.load_file(f, permitted_classes: [Date, Time], aliases: true)
+                YAML.unsafe_load_file(f)
                 puts "ok   #{f}"
-              rescue Psych::SyntaxError => e
-                warn "FAIL #{f}: #{e.message}"
+              rescue => e
+                warn "FAIL #{f}: #{e.class}: #{e.message}"
                 ok = false
               end
             end
