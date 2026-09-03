@@ -14,15 +14,6 @@
     image: 'Nicola-Courtier.jpg'
     bio: Nicola is interested in the optimisation and analysis of battery models. She has an MMath from the University of Oxford and a PhD in Mathematical Sciences from Southampton University, and was awarded an EPSRC Doctoral Prize to do research on charge transport models of perovskite solar cells. Nicola previously studied the manufacture of battery electrodes in the Faraday Institution Nextrode project.
 
-  - name : Dr Dibyendu Ghosh
-    image: 'Dibyendu-Ghosh.jpg'
-    bio: Dibyendu earned his Ph.D. in Mechanical Engineering from IIT Kharagpur in Fluid Mechanics and Thermal Sciences. Before joining Oxford, he was awarded the Shastri Research Student Fellowship (SRSF), enabling him to conduct interdisciplinary research at McMaster University in biomedical engineering. Dibyendu's current research focuses on evaluating the performance of equivalent circuit and physics-based electrochemical models using various open-source platforms.
-
-  - name : Dr Phil Grünewald FICE
-    title: Oxford Martin Fellow
-    image: 'Phil-Grunewald.jpg'
-    bio: Phil loves data. He collects smart meter, diary, socio-demographic and other sensor data to explain variations and flexibility in UK household energy demand. This approach is based on his interdisciplinary EPSRC Fellowship, which he applied as PI of the METER project and now as Co-I of EDOL. Phil worked in the semiconductor and photovoltaic industry before completing his PhD on grid energy storage at Imperial College. In his spare time he is a passionate rower, cyclist and roller skier.
-
   - name : Dr Volkan Kumtepeli
     image: 'Volkan-Kumtepeli.jpg'
     bio: Volkan is focused on in grid-scale energy storage systems, power electronics, data-driven, and safe learning approaches and their intersection with model-based optimization methods. He has a BSc from Yıldız Technical University, Istanbul, Turkey, and Ph.D. from the Energy Research Institute, Nanyang Technological University, Singapore.
@@ -30,6 +21,11 @@
   - name : Dr Christopher Wett
     image: 'Christopher-Wett.jpg'
     bio: Christopher is interested in battery modelling, management, and diagnostics. He has a background in analysing EV batteries for second-life applications and recycling, with experience in impedance spectroscopy and data-driven methods. He earned his PhD at the Institute of Engineering Thermodynamics at the University of Siegen.
+
+- name : Dr Phil Grünewald FICE
+    title: Oxford Martin Fellow
+    image: 'Phil-Grunewald.jpg'
+    bio: Phil loves data. He collects smart meter, diary, socio-demographic and other sensor data to explain variations and flexibility in UK household energy demand. This approach is based on his interdisciplinary EPSRC Fellowship, which he applied as PI of the METER project and now as Co-I of EDOL. Phil worked in the semiconductor and photovoltaic industry before completing his PhD on grid energy storage at Imperial College. In his spare time he is a passionate rower, cyclist and roller skier.
 
 - role: Graduate students
   people:
@@ -71,6 +67,7 @@
     
 - role: Alumni
   people:
+  - Dr Dibyendu Ghosh, now based at Elysia Battery Intelligence
   - Ms Nora Gu, Analyst at Altman Solon
   - Dr Brady Planden, Founding Computational Engineer at Ionworks
   - Dr Zihao Zhou, Senior Reliability Modelling and Optimization Engineer at CATL
